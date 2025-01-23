@@ -570,8 +570,8 @@ const historyData = [
       number: 1,
       choice: [
         {
-          value: "Bravo ! Rejouer ?",
-          page: 1,
+          value: "Bravo !",
+          page: 33,
         },
       ],
     },
@@ -660,8 +660,8 @@ const historyData = [
       number: 1,
       choice: [
         {
-          value: "Bravo ! Rejouer ?",
-          page: 1,
+          value: "Bravo !",
+          page: 33,
         },
       ],
     },
@@ -697,6 +697,22 @@ const historyData = [
         {
           value: "Retourner au village",
           page: 24,
+        },
+      ],
+    },
+    dice: "hidden", //hidden
+  },
+  {
+    page: 32,
+    title: "Bravo !",
+    text: "",
+    image: "assets/photosPerso/flamenco.gif",
+    options: {
+      number: 1,
+      choice: [
+        {
+          value: "Rejouer ?",
+          page: 1,
         },
       ],
     },
